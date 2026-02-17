@@ -1,0 +1,7 @@
+D:\BACKEND\PROJECT\PROJECT\bin\Release\net10.0\publish\PROJECT.exe
+D:\BACKEND\PROJECT\PROJECT\bin\Release\net10.0\publish\appsettings.Development.json
+D:\BACKEND\PROJECT\PROJECT\bin\Release\net10.0\publish\appsettings.json
+D:\BACKEND\PROJECT\PROJECT\bin\Release\net10.0\publish\PROJECT.dll
+D:\BACKEND\PROJECT\PROJECT\bin\Release\net10.0\publish\PROJECT.deps.json
+D:\BACKEND\PROJECT\PROJECT\bin\Release\net10.0\publish\PROJECT.runtimeconfig.json
+D:\BACKEND\PROJECT\PROJECT\bin\Release\net10.0\publish\PROJECT.pdb
