@@ -21,9 +21,7 @@ D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\scopedcss\bundle\PROJECT.styles.css
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\scopedcss\projectbundle\PROJECT.bundle.scp.css
-D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\compressed\7l2n6s2w6n-{0}-b9sayid5wm-b9sayid5wm.gz
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\compressed\93k8nmm71e-{0}-61n19gt1b8-61n19gt1b8.gz
-D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\compressed\eea9wz6qzv-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\compressed\csh8hmg874-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\compressed\pm4s49dkg9-{0}-c2jlpeoesf-c2jlpeoesf.gz
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\compressed\b9mv5hkthj-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -96,3 +94,6 @@ D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\refint\PROJECT.dll
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\PROJECT.pdb
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\PROJECT.genruntimeconfig.cache
 D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\ref\PROJECT.dll
+D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\PROJECT.sourcelink.json
+D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\compressed\7l2n6s2w6n-{0}-vbgj1bqjwk-vbgj1bqjwk.gz
+D:\BACKEND\PROJECT\PROJECT\obj\Debug\net10.0\compressed\eea9wz6qzv-{0}-rw28loxxd3-rw28loxxd3.gz

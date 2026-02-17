@@ -4,42 +4,70 @@
     ViewData["Title"] = "Fraud Detection Dashboard";
 }
 
-<h2>Fraud Detection Dashboard</h2>
+<div class="container-fluid p-4">
 
-<div class="row">
-    <div class="col-md-3">
-        <div class="card bg-success text-white p-3">
-            <h5>Total Transactions</h5>
-            <h3>1200</h3>
+    <h2 class="mb-4">Fraud Detection Dashboard</h2>
+
+    <!-- Stats Cards -->
+    <div class="row mb-4">
+
+        <div class="col-md-3">
+            <div class="card bg-success text-white p-3 shadow">
+                <h6>Total Transactions</h6>
+                <h3 id="totalTransactions">1200</h3>
+            </div>
         </div>
+
+        <div class="col-md-3">
+            <div class="card bg-danger text-white p-3 shadow">
+                <h6>Fraud Detected</h6>
+                <h3 id="fraudCount">45</h3>
+            </div>
+        </div>
+
     </div>
 
-    <div class="col-md-3">
-        <div class="card bg-danger text-white p-3">
-            <h5>Fraud Detected</h5>
-            <h3>45</h3>
-        </div>
+    <!-- Chart Section -->
+    <div class="card p-4 mb-4 shadow bg-dark">
+        <h5 class="mb-3 text-white">Transactions Overview</h5>
+        <canvas id="transactionChart"></canvas>
     </div>
+
+    <!-- Transaction Table -->
+    <div class="card p-4 shadow bg-dark">
+        <h5 class="mb-3 text-white">Recent Transactions</h5>
+
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>User</th>
+                    <th>Amount (₹)</th>
+                    <th>Fraud Score</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="transactionTable">
+                <tr>
+                    <td>TXN001</td>
+                    <td>John</td>
+                    <td>5000</td>
+                    <td>0.92</td>
+                    <td><span class="badge bg-danger">Fraud</span></td>
+                </tr>
+                <tr>
+                    <td>TXN002</td>
+                    <td>Alice</td>
+                    <td>1200</td>
+                    <td>0.12</td>
+                    <td><span class="badge bg-success">Legit</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </div>
 
-<br />
-
-<canvas id="transactionChart"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-    var ctx = document.getElementById('transactionChart');
-
-    new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: ['Mon', 'Tue', 'Wed', 'Thu'],
-            datasets: [{
-                label: 'Transactions',
-                data: [12, 19, 3, 5],
-                borderColor: 'blue'
-            }]
-        }
-    });
-</script>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+}
